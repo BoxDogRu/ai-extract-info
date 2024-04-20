@@ -1,0 +1,9 @@
+python-dotenv
+openai
+langchain
+tiktoken
+langchain-openai
+langchain-community
+pandas
+tqdm
+# transformers  - HuggingFace local
