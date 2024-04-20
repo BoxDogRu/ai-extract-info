@@ -8,4 +8,4 @@
 * Решение: example2.py
 
 ### Первоисточник
-* https://stepik.org/course/178846/syllabus
+* Материалы курса: https://stepik.org/course/178846/syllabus

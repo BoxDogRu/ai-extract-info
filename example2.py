@@ -22,7 +22,7 @@ customer_review = """
 что дополнительные функции того стоят.
 """
 
-# Понадобится ещё одна сущность: схема ответа - ResponseSchema
+# Понадобится ещё одна сущность: схема ответа - ResponseSchema.
 gift_schema = ResponseSchema(name="gift",
                              description="Был ли товар куплен в подарок кому-то другому? Ответь «True», если да, «False», если нет или неизвестно.")
 
@@ -67,7 +67,7 @@ messages = prompt.format_messages(text=customer_review,
                                 format_instructions=format_instructions)
 
 response = llm.invoke(messages)
-output_dict = output_parser.parse(response.content) # преобразуем ответ в словарь
+output_dict = output_parser.parse(response.content)     # преобразуем ответ в словарь
 
 print(output_dict)  # {'gift': 'True', 'delivery_days': '2', 'price_value': 'Этот фен немного дороже, чем другие'}
 

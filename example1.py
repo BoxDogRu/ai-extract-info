@@ -34,7 +34,7 @@ Question: Для скольки человек необходимо жилье?
 Answer: Только число
 """
 
-amount_list = [] # Список, где будем хранить ответы модели
+amount_list = []    # Список, где будем хранить ответы модели
 
 for cnt, text_input in enumerate(tqdm(df['text'])):
     prompt = prompt_template.format(text_input=text_input) # Добавляем сообщение в промпт
